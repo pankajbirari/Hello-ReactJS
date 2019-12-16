@@ -9,20 +9,8 @@
   <body>
     <div class="container">
       <div class="page-header">
-        <h1>Hello ReactJS - Add a Table Row - Code Example</h1>
-      </div>
-      <div id="companyApp"></div>  
-    </div>
-    <script type="text/jsx">
-      /** @jsx React.DOM */
-      var CompanyApp = React.createClass({
-        getInitialState: function() {
-          return {companylist:this.props.companies};
         },
-        handleNewRowSubmit: function( newcompany ) {
-          this.setState( {companylist: this.state.companylist.concat([newcompany])} );
-        },
-        handleCompanyRemove: function( company ) {
+        handleCompanyRemove: function( compasdnsdsds ) {
           
           var index = -1;	
           var clength = this.state.companylist.length;
@@ -37,7 +25,7 @@
         },
         render: function() {
           var tableStyle = {width: '100%'};
-          var leftTdStyle = {width: '50%',padding:'20px',verticalAlign: 'top'};
+          var leftTdStyle = {width: '50%',padding:'20px',verticalAlign: 'top;
           var rightTdStyle = {width: '50%',padding:'20px',verticalAlign: 'top'};
           return ( 
             <table style={tableStyle}>
